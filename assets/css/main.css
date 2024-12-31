@@ -3108,3 +3108,9 @@ section.recent-projects ul li {
   align-items: center;
   min-width: 30%;
 }
+
+@media screen and (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
+}
