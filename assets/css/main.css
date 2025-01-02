@@ -2332,12 +2332,12 @@ button:disabled,
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .feature {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .feature .title,
   .feature .description {
-      flex: 1;
+    flex: 1;
   }
 }
 
@@ -3063,13 +3063,6 @@ section.recent-projects {
   margin-top: 3em; /* Adjust margin for consistent spacing */
 }
 
-section.recent-projects h2 {
-  text-align: left; /* Align header to the same baseline as About Us and Testimonials */
-  margin-left: 2em; /* Match left margin with the About Us and Testimonials headers */
-  font-size: 1.75em;
-  font-weight: bold;
-}
-
 /* Style the list to align with the text and have inline plus signs */
 section.recent-projects ul {
   list-style: none; /* Remove default bullet points */
@@ -3100,7 +3093,7 @@ section.recent-projects ul li {
 
 .container {
   display: flex;
-  margin-top: 10em
+  margin-top: 10em;
 }
 
 .left-half {
