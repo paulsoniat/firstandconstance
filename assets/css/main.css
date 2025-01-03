@@ -3131,3 +3131,51 @@ section.recent-projects ul li {
 .logo-container img:hover {
   transform: scale(1.1); /* Slightly enlarge image on hover */
 }
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Adjust spacing between logos */
+}
+
+.logo-container a {
+  text-decoration: none; /* Remove underline from links */
+}
+
+.logo-container img {
+  width: 225px; /* Increase the size of the logos */
+  height: auto; /* Maintain aspect ratio */
+  border: none; /* Remove any default border */
+  box-shadow: none; /* Remove any shadow if applied */
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add a hover effect for interaction */
+}
+
+.logo-container img:hover {
+  transform: scale(1.1); /* Slightly enlarge image on hover */
+}
+
+.header-col {
+  display: flex;
+  flex-direction: column;
+  color: #0097b2;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header-text {
+  color: #0097b2;
+}
+
+.header-col {
+  display: flex;
+  flex-direction: column;
+  color: #0097b2;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header-text {
+  color: #0097b2;
+}
