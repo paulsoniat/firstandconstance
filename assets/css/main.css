@@ -1971,6 +1971,12 @@ ul.actions.fit.stacked {
 }
 
 /* Icons */
+.icons-cont{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
 ul.icons {
   cursor: default;
   list-style: none;
@@ -3156,14 +3162,6 @@ section.recent-projects ul li {
   transform: scale(1.1); /* Slightly enlarge image on hover */
 }
 
-.header-col {
-  display: flex;
-  flex-direction: column;
-  color: #0097b2;
-  justify-content: center;
-  align-items: flex-start;
-}
-
 .header-text {
   color: #0097b2;
 }
@@ -3178,4 +3176,11 @@ section.recent-projects ul li {
 
 .header-text {
   color: #0097b2;
+}
+
+.flex-header{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
