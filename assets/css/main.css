@@ -3173,7 +3173,7 @@ section.recent-projects ul li {
   flex-direction: column;
   color: #0097b2;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .header-text {
