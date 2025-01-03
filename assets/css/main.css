@@ -3107,3 +3107,16 @@ section.recent-projects ul li {
     flex-direction: column;
   }
 }
+
+.header-col {
+  display: flex;
+  flex-direction: column;
+  color: #0097b2;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.header-text {
+  color: #0097b2;
+}
